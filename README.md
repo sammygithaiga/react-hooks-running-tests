@@ -193,13 +193,7 @@ See if you can get this test passing by updating the code in `src` >
 `components` > `Header.js` as follows:
 
 ```jsx
-import React from "react";
 
-function Header(props) {
-  return <h1>hello from the Header!</h1>;
-}
-
-export default Header;
 ```
 
 Next, press the **a** key in your terminal to tell Jest to run **all** tests.
